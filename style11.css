@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	height: auto;
+}
+body{
+	overflow-x: hidden;
+	font-family: "Times New Roman",san-serif;
+	color: #505962;	
+	width: 100%
+}
+.div2 {
+  width: 800px;
+  height: 100px;  
+  border: 1px solid white;
+}
+.div2:hover{
+	background-color: grey;
+	color: white;
+}
+
+.navbar{
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background:rgba(0,0,0,0.6)!important;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+} 
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+#img1{
+	position:relative
+	background-repeat:no-repeat;
+	padding-left: 10px;
+}
+#baner-content{
+	position:absolute;
+	top:200px;
+	left:300px;
+	color:black;
+	text-align: center;
+}
+#baner-content h1{
+	font: bold, Georgia, serif;
+}
+#baner-content p{
+	font: italic, arial, sans-serif;
+}
+footer{
+	background-color: black;
+	color: white;
+}
